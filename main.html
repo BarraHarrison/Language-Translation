@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Language Translation App</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div class="text-input">
+                    <textarea class="from-text" placeholder="Enter text"></textarea>
+                    <textarea class="translated-text" placeholder="Translation" readonly disabled></textarea>
+                </div>
+                <ul class="controls">
+                    <li class="row from">
+                        <div class="icons">
+                            <i id="from" class="fa-solid fa-volume-high"></i>
+                            <i id="from" class="fa-regular fa-copy"></i>
+                        </div>
+                        <select>
+                            <!-- langauge options -->
+                        </select>
+                    </li>
+                    <li class="exchange">
+                        <i class="fa-solid fa-right-left"></i>
+                    </li>
+                    <li class="row to">
+                        <select>
+                            <!-- language options -->
+                        </select>
+                        <div class="icons">
+                            <i id="to" class="fa-solid fa-volume-high"></i>
+                            <i id="to" class="fa-regular fa-copy"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button>Translate</button>
+        </div>
+
+
+
+        <!-- Font Awesome Link for Icons -->
+        <script src="https://kit.fontawesome.com/7b01594302.js" crossorigin="anonymous"></script>
+        <script src="countries.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

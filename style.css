@@ -1,0 +1,104 @@
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oxanium:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #D8BFD8;
+}
+.container {
+    width: 750px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+.wrapper {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 10px 15px;
+    resize: none;
+}
+.text-input .translated-text {
+    border-left: 1px solid black;
+    border-radius: 0px;
+}
+.controls, li, .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls {
+    list-style: none;
+    padding: 12px 15px;
+}
+.controls .row.from .icons {
+    padding-right: 20px;
+    border-right: 1px solid #ac72ac;
+}
+.controls .row.to .icons {
+    padding-left: 20px;
+    border-left: 1px solid #ac72ac;
+}
+.controls .icons {
+    width: 38%;
+}
+.controls .icons i {
+    color: #ac72ac;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 50px;
+    justify-content: center;
+}
+.controls .icons i:hover {
+    color: #000;
+}
+.controls .row select {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.1rem;
+    width: 125px;
+}
+.controls .exchange {
+    color: #ac72ac;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.container button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    background: #ac72ac;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.container button:hover {
+    background: #8c588c; /* Darker shade of the original color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
